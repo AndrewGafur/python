@@ -1,0 +1,22 @@
+"""
+    Task:
+Output must be like:
+            color1 must equal to white ⬜
+            color2 must equal to black ⬛
+"""
+
+color1 = 'black'
+color2 = 'white'
+# Don't change code above ☝️
+
+# Answer
+color3 = color2
+color2 = color1
+color1 = color3
+
+# Don't change code below👇
+print(color1)
+print(color2)
+
+
+# Hope you support me 😁
