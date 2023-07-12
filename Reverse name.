@@ -1,0 +1,34 @@
+"""
+    Task:
+        Your program should start by reading the name of the user
+     than reversing the name of user. For example: andrew => werdna
+"""
+
+# Explaining the function of the program
+print("Program reverses your name.")
+
+# Taking name of the user
+name = input("What's your name: ")
+
+# Opened list for saving latters
+list_name = []
+
+# Splitting the name of user
+for latter in name:
+    reversed_name.append(latter)
+
+# Reversed the name of user's name
+list_name.reverse()
+
+# Declaring variable to save reversed name
+reversed_name = ''
+
+# Joining the latters each other
+while list_name:
+    reversed_name += list_name.pop(0)
+
+# Output
+print(reversed_name)
+
+# If you havr better way to solve this exercise let me know 😁
+
