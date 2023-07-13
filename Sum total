@@ -1,0 +1,15 @@
+# Taking numder. Not decennial or string
+while True:
+    num = input('Enter a number: ')
+    if num.isdigit():
+        break
+
+# Declaring variable to save the sum of number as res
+res = 0
+
+# The process of adding num
+for n in num:
+    res += int(n)
+
+# Output
+print(res)
